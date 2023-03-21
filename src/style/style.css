@@ -2,6 +2,7 @@
     max-width: 1170px;
     max-height: 665px;
     margin: 0 auto;
+    margin-bottom: 150px;
     border: 2px solid black;
 }
 
@@ -81,13 +82,13 @@ h4 {
     max-width: 1170px;
     height: 540px;
     margin: 0 auto;
-    padding-bottom: 300px;
-    
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .header-tabs {
     background-color: rgb(255, 255, 255);
-    padding: 15px 0;
+    padding: 9px 0;
     text-align: left;
 }
 
@@ -137,15 +138,40 @@ h4 {
 }
 
 .content-tabs__text span {
-    padding: 40px 0;
     font-family: 'Raleway';
     font-style: normal;
     font-size: 18px;
 }
 
 .content-tabs__button {
-    height: 58px;
     width: 270px;
+    margin-top: 30px;
+
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    text-align: center;
+
+    color: white;
+    background: #EC7979;
+}
+
+.tabs-button {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.content-tabs__button {
     margin-top: 27px;
     text-align: center;
 
@@ -153,12 +179,13 @@ h4 {
 }
 
 .content-tabs__button span {
-    height: 58px;
-    width: 270px;
+    text-align: center;
+    padding: 100px;
 }
 
-
-.tabs__icon {
-    float: right;
+.tabs-button {
+    height: 57px;
+    width: 270px;
+    padding: 40px;
 }
 
