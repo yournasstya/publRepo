@@ -14,7 +14,7 @@ body {
     height: 76px;
 }
 
-.header .container {
+.header .container-header {
     height: inherit;
     display: flex;
     justify-content: space-between;
@@ -57,13 +57,9 @@ body {
     flex-flow: row nowrap;
 }
 
-.container .header-logo {
+.container-header .header-logo {
     margin-left: 115px;
 }
-
-
-
-
 
 
 .container__banner {
@@ -71,8 +67,6 @@ body {
     height: 1026px;
     background-image: url(images/banner.png);
 }
-
-
 
 
 
