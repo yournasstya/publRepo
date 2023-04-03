@@ -12,9 +12,9 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container-header">
+            <div class="header-container">
                 <img class="header-logo" src="./icon/axit.png" alt="">
-                <div class="navbar-wrap">
+                <nav class="navbar-wrap">
                     <ul class="navbar-menu">
                         <li><a href="#">Features</a></li>
                         <li><a href="#">About</a></li>
@@ -22,13 +22,13 @@
                         <li><a href="#">Reviews</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </header>
  
 
 
-        <div class="container__banner">
+        <div class="banner" style="background-image: url(../src/style/images/banner.png);">
             <div class="content-banner__text">
                 <img class="axit-banner" src="./icon/axit-banner.png" alt="">
                 <h1>MODERN AXURE TEMPLATE <br> FOR BEAUTIFUL <br> PROTOTYPES</h1>
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="registration-banner">
-                <form class="registration-banner-form">
+                <form class="form-registration-banner">
                     <h3 class="text-center">TRY YOUR <span style="color: rgba(236, 121, 121, 1)">FREE</span> TRIAL TODAY</h3>
                     <div class="form-group">
                         <input class="form-control item" type="text" name="username" placeholder="Name">
@@ -85,7 +85,7 @@
 
 
 
-        <div class="container__tabs">
+        <div class="tabs">
             <div class="header-tabs">
                 <span class="active">TAB 1</span>
                 <span>TAB 2</span>
@@ -106,18 +106,18 @@
                     </div>
                 </div>   
                     <div class="content-tabs__icon">
-                        <img class="tabs__icon" src="./icon/tab.png" alt="" width="470" height="540">
+                        <img class="tabs__icon" src="./icon/tab.png" alt="" width="480" height="540">
                     </div>
             </div>
         </div>
     
     
     
-        <div class="container__about">
-            <div class="header-about">
+        <div class="container-about">
+            <div class="container-about__header">
                 <span>WHY THIS IS AWESOME</span>
             </div>
-            <hr class="line">
+            <hr class="container-about__line">
             <div class="header-about__content">
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
             </div>
@@ -148,12 +148,12 @@
 
 
 
-        <div class="container__pricing">
-            <div class="header-about">
+        <div class="container-pricing">
+            <div class="container-pricing__header">
                 <span>PRICING OPTIONS</span>
             </div>
-            <hr class="line">
-            <div class="header-about__content">
+            <hr class="pricing-line">
+            <div class="header-pricing__content">
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
             </div>
             <div class="content-price">
@@ -194,45 +194,59 @@
         </div>
 
 
+        
         <div class="reviews">
-            <div class="header-about">
+            <div class="reviews-header__text">
                 <span>WHAR OUR CUSTOMERS ARE SAYING</span>
             </div>
-            <hr class="line">
-            <div class="header-about__content">
+            <hr class="reviews-line">
+            <div class="header-reviews__content">
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
             </div>
             <div class="customers">
+
                 <div class="customer1">
-                    <span>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</span>
-                </div>
-                <div class="customer2">
-                    <span>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</span>
-                </div>
-                <div class="customer3">
-                    <span>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</span>
-                </div>
-                <div class="smth">
+                    <div class="customer1__text">
+                        <span>Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</span>
+                    </div>
                     <div class="customer-icon1">
                         <img src="./icon/Ellipse1.png" alt="">
+                        <h4>Davis Rhiel Madsen</h4>
+                        <span>Manager</span>
+                    </div>
+                </div>
+
+                <div class="customer2">
+                    <div class="customer2__text">
+                        <span>Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</span>
                     </div>
                     <div class="customer-icon2">
-                        <img src="./icon/Ellipse1.png" alt="">
+                        <img src="./icon/Ellipse2.png" alt="">
+                        <h4>Jaydon Rosser</h4>
+                        <span>Manager</span>
+                    </div>
+                </div>
+
+                <div class="customer3">
+                    <div class="customer3__text">
+                        <span>Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.</span>
                     </div>
                     <div class="customer-icon3">
-                        <img src="./icon/Ellipse1.png" alt="">
+                        <img src="./icon/Ellipse3.png" alt="">
+                        <h4>Cooper Dorwart</h4>
+                        <span>Manager</span>
                     </div>
                 </div>
             </div>
@@ -240,19 +254,63 @@
 
 
 
-        <div class="banner2">
-            <div class="header-about">
-                <span style="color: #fff;">STYLISH AXURE DESIGN</span>
+        <div class="banner2" style="background-image: url(../src/style/images/banner2.png);">
+            <div class="header-banner2__text">
+                <span">STYLISH AXURE DESIGN</span>
             </div>
             <hr class="line-banner2">
-            <div class="header-about__content">
-                <span style="color: #fff;">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</span>
+            <div class="header-banner2__content">
+                <span>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</span>
             </div>
-            <div class="content-banner2__button">
-                <button class="banner2-button">Download</button>
-            </div>
+            <button class="bannerbtn" type="submit">Download</button>
         </div>
 
+
+
+        <div class="container-contact">
+            <div class="container-contact__header">
+                <span>CONTACT US</span>
+            </div>
+            <hr class="container-contact__line">
+            <div class="header-contact__content">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            </div>
+            <form>
+                <div class="form-contact">
+                    <input class="form-contact item" type="text" name="username" placeholder="Name">
+                    <hr class="line-contact">
+                </div>
+                <div class="form-contact">
+                    <input class="form-contact item" type="email" name="email" placeholder="Email">
+                    <hr class="line-contact">
+                </div>
+                <div class="form-contact">
+                    <input class="form-contact item" type="password" name="password" placeholder="Password">
+                    <hr class="line-contact">
+                </div>
+                <div class="form-contact">
+                    <input class="form-contact item2" type="text2" name="message" placeholder="Message">
+                    <hr class="line-contact2">
+                </div>
+                <button class="submitbtn" type="submit">Send Message</button>
+            </form>
+        </div>
+
+
+
+        <footer class="footer">
+            <div class="social-media__icon2">
+                <img src="./icon/facebook_icon2.png" alt="">
+                <img src="./icon/twitter_icon2.png" alt="">
+                <img src="./icon/linkedin_icon2.png" alt="">
+                <img src="./icon/pinterest_icon2.png" alt="">
+                <img src="./icon/instagram_icon2.png" alt="">                    <img src="./icon/github_icon2.png" alt="">
+                <img src="./icon/rss_icon2.png" alt="">
+            </div>
+            <div class="footer__text">
+                <span>© 2015 Axure Themes</span>
+            </div>
+        </footer>
 
     </div>
 </body>
