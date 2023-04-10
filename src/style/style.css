@@ -471,7 +471,10 @@ body {
     background: rgba(245, 245, 245, 1);
 }
 
-.container-pricing__header {
+/*.container-pricing__header*/
+.container-pricing h2 {
+    padding: 0;
+    margin: 0;
     text-align: center;
     padding-bottom: 40px;
 
@@ -487,14 +490,17 @@ body {
     font-size: 18px;
 }
 
-.header-pricing__content {
+.container-pricing h5 {
     padding-top: 20px;
     padding-bottom: 60px;
     text-align: center;
     color: rgba(134, 135, 139, 1);
 
     font-family: 'Raleway';
-    font-style: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .content-price {
@@ -564,6 +570,8 @@ td:hover {
 }
 
 .reviews-header__text {
+    padding: 0;
+    margin: 0;
     text-align: center;
     padding-bottom: 40px;
 
@@ -587,7 +595,10 @@ td:hover {
     text-align: center;
 
     font-family: 'Raleway';
-    font-style: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .customers {
@@ -599,7 +610,7 @@ td:hover {
     height: 180px;
     position: absolute;
     left: 170px;
-    top: 3820px;
+    top: 3890px;
 }
 
 .customer1__text {
@@ -680,7 +691,7 @@ td:hover {
     width: 370px;
     height: 336px;
     left: 570px;
-    top: 3820px;
+    top: 3890px;
 }
 
 .customer2__text {
@@ -764,7 +775,7 @@ td:hover {
     width: 370px;
     height: 336px;
     left: 970px;
-    top: 3820px;
+    top: 3890px;
 }
 
 .customer3__text {
@@ -993,18 +1004,6 @@ td:hover {
     line-height: 19px;
 }
 
-.form-contact .item2 {
-    border: none;
-    outline: none;
-    margin-bottom: 10px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-}
-
 .line-contact {
     margin-bottom: 50px;
     border: 0.5px solid #BDBDBD;
@@ -1027,7 +1026,16 @@ input[type="password"] {
     width: 510px;
 }
 
-input[type="text2"] {
+.form-contact .item2 {
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
     width: 460px;
 }
 
@@ -1086,10 +1094,10 @@ input[type="text2"] {
     filter: brightness(70%);
 }
 
-.footer__text article {
+.footer__text h6 {
     padding: 0;
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     text-align: center;
 
     font-family: 'Raleway';
